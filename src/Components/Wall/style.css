@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+.wall-container {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.add-btn-box {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: auto;
+  height: auto;
+}
+
+.add-btn {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 40px;
+  background-color: purple;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
